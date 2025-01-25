@@ -98,9 +98,28 @@ y_cos = np.cos(x_sin)
 # plt.show()
 
 y_tan = np.tan(x_sin)
-plt.plot(x_sin, y_tan)
-plt.show()
+# plt.plot(x_sin, y_tan)
+# plt.show()
 
 
+rand = np.random.random(2)
+# print(rand)
 
+rndVar = np.random.random((3,3))
+# print(rndVar)
 
+rdi = np.random.randint(1,4, (4,3,3))
+# print(rdi)
+
+str1 = 'Abdullah'
+str2 = ' Ansari'
+
+print(np.char.add(str1, str2))
+print(np.char.lower(str1,))
+print(np.char.upper(str1))
+print(np.char.center(str1, 60, fillchar='*'))
+print(np.char.join(['/',':'], [str1,str2]))
+print(np.char.count(str1, 'A'))
+print(np.char.find(str1, 'A'))
+print(np.char.replace(str1, 'A', 'a'))
+print(np.char.equal(str1, str2))
